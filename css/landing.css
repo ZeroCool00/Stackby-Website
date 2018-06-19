@@ -17,6 +17,15 @@ body{
   height: 90px;
 }
 
+.bannerImage {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
 .stack {
   width: 100%;
   height: auto;
@@ -39,7 +48,6 @@ body{
 	-webkit-animation-delay:2s;
 	-webkit-animation-iteration-count:infinite;
 	animation-iteration-count:infinite;
-
 }
 
 .bannertext{
