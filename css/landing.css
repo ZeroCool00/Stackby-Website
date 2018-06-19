@@ -76,6 +76,7 @@ body{
 }
 #footer a:hover {
   text-decoration: none;
+  color: #000;
 }
 #footer .designed-in-text {
     font-size: 15px;
