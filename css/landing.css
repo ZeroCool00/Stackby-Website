@@ -1,20 +1,20 @@
 body{
     position: relative;
     font-family: 'Tajawal', sans-serif;
-    padding-top:160px;
+    padding-top:70px;
 	  -webkit-font-smoothing: antialiased;
 }
 
 .navbar-fixed-top {
-	padding-top:30px;
 	background-color: white;
-	border-bottom:0px;
-	padding-left:40px;
+  -webkit-box-shadow: 0 1px 1px -1px #CCC;
+     -moz-box-shadow: 0 1px 1px -1px #CCC;
+          box-shadow: 0 1px 1px -1px #CCC;
 }
 
 .navbar-brand {
-  width: 200px;
-  height: 90px;
+  width: 160px;
+  height: 75px;
 }
 
 .bannerImage {
