@@ -66,8 +66,10 @@ body{
 
 .bannertext{
   margin-top: 50px;
-	font-weight:bold;
-	font-size:40px;
+  margin-right: 20px;
+	font-weight:600;
+	font-size:2.4em;
+  line-height: 50px;
   text-align: center;
 }
 
