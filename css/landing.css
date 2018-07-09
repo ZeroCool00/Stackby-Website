@@ -18,6 +18,8 @@ body{
 }
 
 .bannerImage {
+  width: 100%;
+  height: auto;
   user-drag: none;
   user-select: none;
   -moz-user-select: none;
@@ -43,9 +45,13 @@ body{
 
 .banner-img {
     width: 100%;
-    float: left;
-    margin-top: 60px;
-	  height:100%;
+    padding: 10px;
+	  display: block;
+    -webkit-animation-duration:2s;
+  	-webkit-animation-delay:2s;
+  	-webkit-animation-iteration-count:infinite;
+  	animation-iteration-count:infinite;
+    margin-bottom: 50px;
 }
 
 .banner-text.text1 above{
@@ -53,18 +59,16 @@ body{
 	-webkit-animation-delay:2s;
 
 }
-.banner-img{
-	-webkit-animation-duration:2s;
-	-webkit-animation-delay:2s;
-	-webkit-animation-iteration-count:infinite;
-	animation-iteration-count:infinite;
+
+.centered {
+  margin-top: 100px;
 }
 
 .bannertext{
-	font-weight:400;
-	font-size:30px;
-	margin-top:20px;
-	padding-top:70px;
+  margin-top: 50px;
+	font-weight:bold;
+	font-size:40px;
+  text-align: center;
 }
 
 .subbannertext{
@@ -166,14 +170,14 @@ display:inline-block;}
 .button {
   display: block;
   border-radius: 4px;
-  background-color:#3498DB;
+  background-color:#0080ff;
   border: none;
   color: #FFFFFF;
   horizontal-align:center;
   text-align: center;
   font-size: 18px;
   padding: 15px;
-  width: 180px;
+  width: 250px;
   transition: all 0.5s;
   cursor: pointer;
   margin-bottom: 20px;
